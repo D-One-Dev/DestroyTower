@@ -8,6 +8,7 @@ public class Sphere : MonoBehaviour
     {
         StartCoroutine(Lifetime());
     }
+
     private IEnumerator Lifetime()
     {
         yield return new WaitForSeconds(lifetime);
